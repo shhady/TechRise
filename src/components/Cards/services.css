@@ -32,12 +32,19 @@
     cursor: pointer;
 }
 
+.linkRouterDom{
+    text-decoration: none;
+    color: white;
+}
+.linkRouterDom:hover{
+    text-decoration: none;
+    color: white;
+}
 .card:hover{
     background-color: rgb(49, 49, 49);
     transition: all .2s ease-in-out;
     border: 1px solid rgba(217,215,215,0.61);
-    /* font-size: 17px; */
-    padding-top: 60px;
+    padding-top: 75px;
     /* box-shadow: 1px 1px 30px -5px rgba(171,171,171,0.88);
     -webkit-box-shadow: 1px 1px 30px -5px rgba(171,171,171,0.88);
     -moz-box-shadow: 1px 1px 30px -5px rgba(171,171,171,0.88); */
