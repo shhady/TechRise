@@ -7,7 +7,7 @@ export default function ContactUs() {
         <div className='formContainer'>
         <div className='rightSideForm'>
 
-</div>
+        </div>
         <div className='leftSideForm'>
         
             <Social />

@@ -15,10 +15,10 @@ export default function Header() {
       <div className='headerContent'>
         <div>
           <ul className='DesktopMenu'>
-            <li>Services</li>
-         <Link to='/About'><li>About</li></Link>   
+          <Link to='/Services' className='linkHeader'> <li>Services</li></Link>
+         <Link to='/About' className='linkHeader'><li>About</li></Link>   
             <li>Projects</li>
-            <li>Contact Us</li>
+            <Link to='/contactUs' className='linkHeader'> <li>Contact Us</li></Link>
           </ul>
           <div className='MobileMenuIcon' onClick={toggleMobileMenu}>
             ☰
@@ -27,15 +27,17 @@ export default function Header() {
             <div className='divAround' onClick={toggleMobileMenu}>
             <ul className='MobileMenu'>
               <li onClick={toggleMobileMenu}>X</li>
-              <li>Services</li>
-              <Link to='/About'><li>About</li></Link>
+              <Link to='/Services' className='linkHeader'> <li>Services</li></Link>
+              <Link to='/About' className='linkHeader'><li>About</li></Link>
               <li>Projects</li>
-              <li>Contact Us</li>
+              <Link to='/contactUs' className='linkHeader'> <li>Contact Us</li></Link>
             </ul>
             </div>
           )}
         </div>
+        <Link to='/'>
         <img src={logo} alt='logo' className='logo' />
+        </Link>
       </div>
     </div>
   );

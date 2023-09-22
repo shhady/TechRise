@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .header{
     height: 7vh;
 }
@@ -67,3 +70,7 @@
     
 }
 
+.linkHeader{
+    text-decoration: none;
+    color: white;
+}

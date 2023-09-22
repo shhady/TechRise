@@ -1,5 +1,5 @@
 import React from 'react'
-import './services.css'
+import './servicesPage.css'
 export default function Cards() {
   return (
     <div className='services'>
