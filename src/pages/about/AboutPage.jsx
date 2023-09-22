@@ -3,7 +3,9 @@ import './aboutPage.css'
 export default function AboutPage() {
   return (
     <div>
-        <h2  style={{margin:'20px'}}>About</h2>
+    <div  style={{ padding:"15px 10px"}}>
+        <span   style={{fontSize:"26px", fontWeight:"bold"}}>About</span>
+        </div>
     <div className='aboutPage'>  
         
         <p  style={{marginTopTop:"20px"}}>
@@ -30,6 +32,7 @@ export default function AboutPage() {
     Contact us today, and let's start transforming your ideas into reality."
     </p>
     </div>
+   
     </div>
   )
 }

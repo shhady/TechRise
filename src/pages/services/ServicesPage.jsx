@@ -3,7 +3,9 @@ import './servicesPage.css'
 export default function Cards() {
   return (
     <div className='services'>
-        <h2 style={{margin:'20px'}}>Services</h2>
+        <div  style={{ padding:"15px 10px"}}>
+        <span   style={{fontSize:"26px", fontWeight:"bold"}}>Services</span>
+        </div>
     <div className='CardsContainer'>
         <div className='card'>
             <h3>Front-End</h3>
