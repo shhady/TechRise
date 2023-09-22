@@ -1,6 +1,9 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import './services.css'
 export default function Cards() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <div className='services'>
         <h2 style={{margin:'20px'}}>Services</h2>

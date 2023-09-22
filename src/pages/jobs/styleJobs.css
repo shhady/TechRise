@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+.spanOf{
+    font-size: 20px;
+    font-weight: bold;
+}
