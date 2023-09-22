@@ -7,11 +7,15 @@
     background-color:#141414; 
 }*/
 .CardsContainer{
+    
     padding: 30px 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap:30px;
     background-color:#141414;
+    margin: auto;
 }
 .card{
     padding: 20px;
