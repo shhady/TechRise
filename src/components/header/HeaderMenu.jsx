@@ -15,6 +15,7 @@ export default function Header() {
       <div className='headerContent'>
         <div>
           <ul className='DesktopMenu'>
+          <Link to='/' className='linkHeader'> <li>Home</li></Link>
           <Link to='/Services' className='linkHeader'> <li>Services</li></Link>
          <Link to='/About' className='linkHeader'><li>About</li></Link>   
             <li>Projects</li>
@@ -27,6 +28,7 @@ export default function Header() {
             <div className='divAround' onClick={toggleMobileMenu}>
             <ul className='MobileMenu'>
               <li onClick={toggleMobileMenu}>X</li>
+              <Link to='/' className='linkHeader'> <li>Home</li></Link>
               <Link to='/Services' className='linkHeader'> <li>Services</li></Link>
               <Link to='/About' className='linkHeader'><li>About</li></Link>
               <li>Projects</li>

@@ -3,9 +3,9 @@ import '../../components/contactUs/contactUs.css'
 import Social from '../../components/socialMedia/Social'
 export default function ContactUs() {
   return (
-    <div>
+    <div  >
         {/* <h1>Contact Us</h1> */}
-        <div className='formContainer'>
+        <div className='formContainer' style={{height:'90vh'}}>
         <div className='rightSideForm'>
 
         </div>
