@@ -18,7 +18,7 @@ export default function Header() {
           <Link to='/' className='linkHeader'> <li>Home</li></Link>
           <Link to='/Services' className='linkHeader'> <li>Services</li></Link>
          <Link to='/About' className='linkHeader'><li>About</li></Link>   
-            <li>Projects</li>
+            {/* <li>Projects</li> */}
             <Link to='/contactUs' className='linkHeader'> <li>Contact Us</li></Link>
           </ul>
           <div className='MobileMenuIcon' onClick={toggleMobileMenu}>
@@ -31,7 +31,7 @@ export default function Header() {
               <Link to='/' className='linkHeader'> <li>Home</li></Link>
               <Link to='/Services' className='linkHeader'> <li>Services</li></Link>
               <Link to='/About' className='linkHeader'><li>About</li></Link>
-              <li>Projects</li>
+              {/* <li>Projects</li> */}
               <Link to='/contactUs' className='linkHeader'> <li>Contact Us</li></Link>
             </ul>
             </div>
