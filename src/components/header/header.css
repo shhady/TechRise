@@ -1,0 +1,69 @@
+.header{
+    height: 7vh;
+}
+
+.logo{
+    height: 7vh;
+}
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 0px 20px;
+    background-color: #000000;
+}
+.DesktopMenu{
+    display: flex;
+    list-style-type: none;
+    gap: 20px; 
+}
+.MobileMenu{
+    display: none;
+}
+.MobileMenuIcon{
+    font-size: 22px;
+    display: none;
+}
+@media (max-width: 550px) {
+    .DesktopMenu{
+        display: none;
+    }
+    .MobileMenuIcon{
+        display: block;
+    }
+    .MobileMenu {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 20px;
+       /* Start off-screen to the left */
+        width: 60%;
+        position: fixed;
+        top: 0;
+        left: 0; 
+        padding: 20px;
+        background-color: #000000;
+        height: 100%;
+        z-index: 999;
+        animation: slideInFromLeft 0.5s ease-in-out; /* Animate the 'left' property */
+      }
+      @keyframes slideInFromLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+     .divAround{
+        background-color: rgba(51, 50, 50, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0; 
+        z-index: 997;
+     }
+    
+}
+
