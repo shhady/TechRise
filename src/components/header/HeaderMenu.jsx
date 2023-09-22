@@ -38,7 +38,9 @@ export default function Header() {
           )}
         </div>
         <Link to='/'>
-        <img src={logo} alt='logo' className='logo' />
+          <div className='logo'>
+        <img src={logo} alt='logo' height='100%' />
+        </div>
         </Link>
       </div>
     </div>
