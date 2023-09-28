@@ -13,9 +13,10 @@
 }
 .headerContent{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px 0px 20px;
+    padding: 10px 20px 0px 20px;
     
 }
 .DesktopMenu{
@@ -33,6 +34,14 @@
 @media (max-width: 550px) {
     .DesktopMenu{
         display: none;
+    }
+    .headerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px 0px 20px;
+        
     }
     .MobileMenuIcon{
         display: block;

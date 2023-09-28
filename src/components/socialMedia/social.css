@@ -1,17 +1,17 @@
 
 
 .social-icons {
-    width: 80%;
+    /* width: 80%; */
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap:20px;
     /* padding: 5px; */
     /* z-index: 99;
     position: fixed;
     bottom: 0;
     left: 0; */
-    background-color: tra;
     color: white;
   }
   

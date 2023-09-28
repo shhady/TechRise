@@ -1,6 +1,6 @@
 import React from 'react'
 import './contactUs.css'
-import Social from '../socialMedia/Social'
+
 export default function ContactUs() {
   return (
     <div>
@@ -9,8 +9,6 @@ export default function ContactUs() {
 
         </div>
         <div className='leftSideForm'>
-        
-            <Social />
             <h3 style={{margin:"15px"}}>Send us a Message</h3>
             <form action="">
                 <label htmlFor="">Name</label>
